@@ -1,6 +1,7 @@
+import Banner from '../../Componentes/Banner/index.jsx'
 import Cabecalho from '../../Componentes/Cabecalho'
 import Menu from '../../Componentes/Menu/index.jsx'
-import banner from './banner.png'
+
 import styles from './PaginaInicial.module.scss'
 
 export default function PaginaInicial () {
@@ -9,11 +10,8 @@ export default function PaginaInicial () {
             <Cabecalho />
             <main>
                 <section className={styles.principal}>
-                    <Menu />
-                    <div className={styles.principal__imagem}>
-                        <h1>A galeria mais completa do espaço</h1>
-                        <img src={banner} alt='imagem da terra vista do espaço'/>
-                    </div>
+                    <Menu />  
+                    <Banner />              
                                         
                 </section>
             </main>
