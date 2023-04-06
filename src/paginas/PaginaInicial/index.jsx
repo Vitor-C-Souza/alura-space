@@ -1,6 +1,6 @@
 import Banner from '../../componentes/banner/index.jsx'
-import Cabecalho from '../../componentes/Cabecalho.js'
-import Menu from '../../componentes/Menu/index.js'
+import Cabecalho from '../../componentes/Cabecalho/index.jsx'
+import Menu from '../../componentes/Menu/index.jsx'
 
 import styles from './PaginaInicial.module.scss'
 
