@@ -1,7 +1,7 @@
 import Banner from '../../componentes/banner/index.jsx'
 import Cabecalho from '../../componentes/Cabecalho/index.jsx'
 import Menu from '../../componentes/Menu/index.jsx'
-
+import Rodape from '../../componentes/rodape/index.jsx'
 import styles from './PaginaInicial.module.scss'
 
 export default function PaginaInicial () {
@@ -11,10 +11,10 @@ export default function PaginaInicial () {
             <main>
                 <section className={styles.principal}>
                     <Menu />  
-                    <Banner />              
-                                        
+                    <Banner />                                                            
                 </section>
             </main>
+            <Rodape />
         </>
     )
 }
